@@ -1,9 +1,16 @@
+'use client'
 import React from 'react'
 import { FaGasPump, FaCogs, FaUsers } from "react-icons/fa";
 import { AiOutlineHeart } from "react-icons/ai";
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const Selling = () => {
+  const router = useRouter();
+
+  const handleNavigation = () => {
+    router.push('/car-category'); // Navigates to the "/car-category" page
+  };
     return (
         <>
     <section >
@@ -616,9 +623,9 @@ const Selling = () => {
 
    
   </div>
-  <div className='w-full h-auto flex flex-col items-center justify-center p-8'>
-    <button className="mx-auto bg-blue-500 text-white px-8 py-4  hover:bg-blue-600">
-            Show more car
+  <div className='w-full h-auto  rounded-lg shadow-md flex flex-col items-center justify-center p-8'>
+    <button className="mx-auto bg-blue-500 text-white text-xl px-4 py-2  hover:bg-blue-600 mt-8" onClick={handleNavigation}>
+            Show more cars
           </button>
         
     </div>

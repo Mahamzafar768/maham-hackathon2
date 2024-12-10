@@ -3,7 +3,7 @@ import Hero from './components/hero'
 
 import PickupCard from './components/pickupcard'
 import Selling from './components/selling'
-import CarDetail from './car-category/page'
+
 
 const Home = () => {
   return (
@@ -12,7 +12,8 @@ const Home = () => {
     
      <PickupCard />
      <Selling />
-     <CarDetail />
+     {/* <CarDetail /> */}
+     
 
     </>
   

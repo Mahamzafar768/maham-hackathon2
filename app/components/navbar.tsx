@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-sm px-6 py-4 md:px-[90px] md:py-6 flex justify-between items-center relative">
+    <nav className="bg-white  px-6 py-4 md:px-[90px] md:py-6 flex justify-between items-center relative">
       {/* Logo */}
       <div className="text-blue-600 text-2xl font-bold">MORENT</div>
 
