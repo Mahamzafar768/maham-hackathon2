@@ -166,48 +166,60 @@ const CarDetails = () => {
                         <p className='px-4 py-2 bg-[#3563E9] text-white  inline-block font-bold'>13</p>
                     </div>
 
-                    <div className='mt-10 flex justify-between items-center'>
-                        <div className='flex items-center gap-4'>
-                            <Image src={'/images/profile.png'} width={80} height={80} alt='profile' className='rounded-full ' />
+                    <div className="mt-10 flex flex-wrap justify-between items-center gap-4 md:gap-0">
+                        <div className="flex items-center gap-4">
+                            <Image
+                                src="/images/profile.png"
+                                width={80}
+                                height={80}
+                                alt="profile"
+                                className="rounded-full"
+                            />
                             <div>
-                                <h1 className='text-xl font-bold'>Alex Stanton</h1>
-                                <p className='text-[#90ABD5]'>CEO at Bankok</p>
+                                <h1 className="text-xl font-bold">Alex Stanton</h1>
+                                <p className="text-[#90ABD5]">CEO at Bangkok</p>
                             </div>
-
                         </div>
-                        <div>
-                            <p className='text-right'>21 July 2022</p>
-                            <div className='flex  gap-2'>
-                                <FaStar className='text-yellow-400' />
-                                <FaStar className='text-yellow-400' />
+                        <div className="text-right space-y-2 md:space-y-0">
+                            <p className="text-sm md:text-base">21 July 2022</p>
+                            <div className="flex justify-end gap-1 md:gap-2">
+                                <FaStar className="text-yellow-400" />
+                                <FaStar className="text-yellow-400" />
                                 <FaStar />
                                 <FaStar />
                                 <FaStar />
                             </div>
                         </div>
                     </div>
+
                     <h1 className='ml-[100px] mt-4 '>We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.</h1>
-                    <div className='mt-10 flex justify-between items-center'>
-                        <div className='flex items-center gap-4'>
-                            <Image src={'/images/profile.png'} width={80} height={80} alt='profile' className='rounded-full ' />
+                    <div className="mt-10 flex flex-wrap justify-between items-center gap-4 md:gap-0">
+                        <div className="flex items-center gap-4">
+                            <Image
+                                src="/images/profile.png"
+                                width={80}
+                                height={80}
+                                alt="profile"
+                                className="rounded-full"
+                            />
                             <div>
-                                <h1 className='text-xl font-bold'>Alex Stanton</h1>
-                                <p className='text-[#90ABD5]'>CEO at Bankok</p>
+                                <h1 className="text-xl font-bold">Alex Stanton</h1>
+                                <p className="text-[#90ABD5]">CEO at Bangkok</p>
                             </div>
-
                         </div>
-                        <div>
-                            <p className='text-right'>21 July 2022</p>
-                            <div className='flex  gap-2'>
-                                <FaStar className='text-yellow-400' />
-                                <FaStar className='text-yellow-400' />
+                        <div className="text-right space-y-2 md:space-y-0">
+                            <p className="text-sm md:text-base">21 July 2022</p>
+                            <div className="flex justify-end gap-1 md:gap-2">
+                                <FaStar className="text-yellow-400" />
+                                <FaStar className="text-yellow-400" />
                                 <FaStar />
                                 <FaStar />
                                 <FaStar />
                             </div>
                         </div>
                     </div>
-                    
+
+
                     <h1 className='ml-[100px] mt-4 '>We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.</h1>
                     <div className='flex justify-center items-center my-8'>
                         <button>See all</button>
@@ -218,151 +230,151 @@ const CarDetails = () => {
                         <Link href={'#'} className='text-[#3563E9]'>View All</Link>
                     </div>
                     <div className="w-full bg-white  flex flex-wrap  gap-6 justify-center bg-[#F6F7F9]">
-                    <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
-                        <div className="p-4">
-                            {/* Header */}
-                            <div className="flex justify-between items-center mb-4">
-                                <h3 className="text-xl font-bold">Koenigsegg</h3>
-                                <button className="text-red-500">
-                                    <AiOutlineHeart size={24} />
-                                </button>
-                            </div>
-                            <p className="text-sm text-gray-500 mb-4">Sport</p>
-                            {/* Image */}
-                            <div className="flex justify-center mb-4">
-                                <Image
-                                    src="/images/1.png"
-                                    width={300}
-                                    height={300}
-                                    alt="Koenigsegg"
-                                    className="h-24"
-                                />
-                            </div>
-                            {/* Details */}
-                            <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
-                                <div className="flex items-center">
-                                    <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>90L</span>
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+                            <div className="p-4">
+                                {/* Header */}
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="text-xl font-bold">Koenigsegg</h3>
+                                    <button className="text-red-500">
+                                        <AiOutlineHeart size={24} />
+                                    </button>
                                 </div>
-                                <div className="flex items-center">
-                                    <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>Manual</span>
+                                <p className="text-sm text-gray-500 mb-4">Sport</p>
+                                {/* Image */}
+                                <div className="flex justify-center mb-4">
+                                    <Image
+                                        src="/images/1.png"
+                                        width={300}
+                                        height={300}
+                                        alt="Koenigsegg"
+                                        className="h-24"
+                                    />
                                 </div>
-                                <div className="flex items-center">
-                                    <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>4 persons</span>
+                                {/* Details */}
+                                <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
+                                    <div className="flex items-center">
+                                        <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>90L</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>Manual</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>4 persons</span>
+                                    </div>
                                 </div>
-                            </div>
-                            {/* Price and Button */}
-                            <div className="flex justify-between items-center">
-                                <div>
-                                    <span className="text-lg font-bold text-gray-900">$200</span>
-                                    <span className="text-sm text-gray-500">/day</span>
+                                {/* Price and Button */}
+                                <div className="flex justify-between items-center">
+                                    <div>
+                                        <span className="text-lg font-bold text-gray-900">$200</span>
+                                        <span className="text-sm text-gray-500">/day</span>
+                                    </div>
+                                    <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                                        Rent Now
+                                    </button>
                                 </div>
-                                <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
-                                    Rent Now
-                                </button>
                             </div>
                         </div>
-                    </div>
-                    <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
-                        <div className="p-4">
-                            {/* Header */}
-                            <div className="flex justify-between items-center mb-4">
-                                <h3 className="text-xl font-bold">Koenigsegg</h3>
-                                <button className="text-red-500">
-                                    <AiOutlineHeart size={24} />
-                                </button>
-                            </div>
-                            <p className="text-sm text-gray-500 mb-4">Sport</p>
-                            {/* Image */}
-                            <div className="flex justify-center mb-4">
-                                <Image
-                                    src="/images/2.png"
-                                    width={300}
-                                    height={300}
-                                    alt="Koenigsegg"
-                                    className="h-24"
-                                />
-                            </div>
-                            {/* Details */}
-                            <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
-                                <div className="flex items-center">
-                                    <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>90L</span>
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+                            <div className="p-4">
+                                {/* Header */}
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="text-xl font-bold">Koenigsegg</h3>
+                                    <button className="text-red-500">
+                                        <AiOutlineHeart size={24} />
+                                    </button>
                                 </div>
-                                <div className="flex items-center">
-                                    <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>Manual</span>
+                                <p className="text-sm text-gray-500 mb-4">Sport</p>
+                                {/* Image */}
+                                <div className="flex justify-center mb-4">
+                                    <Image
+                                        src="/images/2.png"
+                                        width={300}
+                                        height={300}
+                                        alt="Koenigsegg"
+                                        className="h-24"
+                                    />
                                 </div>
-                                <div className="flex items-center">
-                                    <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>4 persons</span>
+                                {/* Details */}
+                                <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
+                                    <div className="flex items-center">
+                                        <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>90L</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>Manual</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>4 persons</span>
+                                    </div>
                                 </div>
-                            </div>
-                            {/* Price and Button */}
-                            <div className="flex justify-between items-center">
-                                <div>
-                                    <span className="text-lg font-bold text-gray-900">$200</span>
-                                    <span className="text-sm text-gray-500">/day</span>
+                                {/* Price and Button */}
+                                <div className="flex justify-between items-center">
+                                    <div>
+                                        <span className="text-lg font-bold text-gray-900">$200</span>
+                                        <span className="text-sm text-gray-500">/day</span>
+                                    </div>
+                                    <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                                        Rent Now
+                                    </button>
                                 </div>
-                                <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
-                                    Rent Now
-                                </button>
                             </div>
                         </div>
-                    </div>
-                    <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
-                        <div className="p-4">
-                            {/* Header */}
-                            <div className="flex justify-between items-center mb-4">
-                                <h3 className="text-xl font-bold">Koenigsegg</h3>
-                                <button className="text-red-500">
-                                    <AiOutlineHeart size={24} />
-                                </button>
-                            </div>
-                            <p className="text-sm text-gray-500 mb-4">Sport</p>
-                            {/* Image */}
-                            <div className="flex justify-center mb-4">
-                                <Image
-                                    src="/images/3.png"
-                                    width={300}
-                                    height={300}
-                                    alt="Koenigsegg"
-                                    className="h-24"
-                                />
-                            </div>
-                            {/* Details */}
-                            <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
-                                <div className="flex items-center">
-                                    <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>90L</span>
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+                            <div className="p-4">
+                                {/* Header */}
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="text-xl font-bold">Koenigsegg</h3>
+                                    <button className="text-red-500">
+                                        <AiOutlineHeart size={24} />
+                                    </button>
                                 </div>
-                                <div className="flex items-center">
-                                    <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>Manual</span>
+                                <p className="text-sm text-gray-500 mb-4">Sport</p>
+                                {/* Image */}
+                                <div className="flex justify-center mb-4">
+                                    <Image
+                                        src="/images/3.png"
+                                        width={300}
+                                        height={300}
+                                        alt="Koenigsegg"
+                                        className="h-24"
+                                    />
                                 </div>
-                                <div className="flex items-center">
-                                    <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
-                                    <span>4 persons</span>
+                                {/* Details */}
+                                <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
+                                    <div className="flex items-center">
+                                        <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>90L</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>Manual</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>4 persons</span>
+                                    </div>
                                 </div>
-                            </div>
-                            {/* Price and Button */}
-                            <div className="flex justify-between items-center">
-                                <div>
-                                    <span className="text-lg font-bold text-gray-900">$200</span>
-                                    <span className="text-sm text-gray-500">/day</span>
+                                {/* Price and Button */}
+                                <div className="flex justify-between items-center">
+                                    <div>
+                                        <span className="text-lg font-bold text-gray-900">$200</span>
+                                        <span className="text-sm text-gray-500">/day</span>
+                                    </div>
+                                    <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                                        Rent Now
+                                    </button>
                                 </div>
-                                <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
-                                    Rent Now
-                                </button>
                             </div>
                         </div>
-                    </div>
-                    
+
 
                     </div>
-                    
+
                 </div>
 
 
