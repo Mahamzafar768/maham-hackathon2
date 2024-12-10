@@ -100,64 +100,71 @@ const CarDetails = () => {
                     </div>
 
                     {/* right div */}
-                    <div className="w-full md:w-[73%] h-auto shadow-sm bg-white shadow-gray p-8">
-                        <div className='flex justify-between items-center'>
-                            <h1 className='text-4xl font-bold'>Nissan GT - R</h1>
-                            <div><FaHeart className='text-red-400' size={24} /></div>
+                    <div className="w-full md:w-[73%] h-auto shadow-sm bg-white shadow-gray p-6 md:p-8">
+                        <div className="flex flex-wrap justify-between items-center gap-4">
+                            <h1 className="text-2xl md:text-4xl font-bold">Nissan GT - R</h1>
+                            <div>
+                                <FaHeart className="text-red-400" size={24} />
+                            </div>
                         </div>
 
-                        <div className='flex gap-10 items-center mt-5'>
-                            <div className='flex items-center gap-2'>
-                                <FaStar className='text-yellow-400' />
-                                <FaStar className='text-yellow-400' />
+                        <div className="flex flex-wrap gap-6 items-center mt-5">
+                            <div className="flex items-center gap-2">
+                                <FaStar className="text-yellow-400" />
+                                <FaStar className="text-yellow-400" />
                                 <FaStar />
                                 <FaStar />
                                 <FaStar />
                             </div>
-                            <p>440+ Reviewer</p>
+                            <p className="text-sm md:text-base">440+ Reviewer</p>
                         </div>
 
-                        <div className='mt-10'>
-                            <h2 className='text-xl'>NISMO has become the embodiment of Nissan&rsquo;s outstanding performance, inspired by the most unforgiving proving ground, the &rdquo;Trace track&rdquo;.</h2>
+                        <div className="mt-6">
+                            <h2 className="text-lg md:text-xl">
+                                NISMO has become the embodiment of Nissan&rsquo;s outstanding performance, inspired by the most unforgiving proving ground, the &rdquo;Trace track&rdquo;.
+                            </h2>
                         </div>
 
-                        <div className='mt-10 flex gap-[180px] items-center'>
+                        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                             <div>
                                 <div>
-                                    <h1 className='text-[#90ABD5] text-xl'>Gasoline</h1>
-                                    <p className='text-2xl font-bold'>70L</p>
+                                    <h1 className="text-[#90ABD5] text-lg md:text-xl">Gasoline</h1>
+                                    <p className="text-xl md:text-2xl font-bold">70L</p>
                                 </div>
-                                <div className='mt-5'>
-                                    <h1 className='text-[#90ABD5] text-xl'>Steering</h1>
-                                    <p className='text-2xl font-bold'>Manual</p>
+                                <div className="mt-5">
+                                    <h1 className="text-[#90ABD5] text-lg md:text-xl">Steering</h1>
+                                    <p className="text-xl md:text-2xl font-bold">Manual</p>
                                 </div>
                             </div>
-
 
                             <div>
                                 <div>
-                                    <h1 className='text-[#90ABD5] text-xl'>Type Car</h1>
-                                    <p className='text-2xl font-bold'>Sport</p>
+                                    <h1 className="text-[#90ABD5] text-lg md:text-xl">Type Car</h1>
+                                    <p className="text-xl md:text-2xl font-bold">Sport</p>
                                 </div>
-                                <div className='mt-5'>
-                                    <h1 className='text-[#90ABD5] text-xl'>Capacity</h1>
-                                    <p className='text-2xl font-bold'>2 Person</p>
+                                <div className="mt-5">
+                                    <h1 className="text-[#90ABD5] text-lg md:text-xl">Capacity</h1>
+                                    <p className="text-xl md:text-2xl font-bold">2 Person</p>
                                 </div>
                             </div>
                         </div>
-                        <div className='flex justify-between items-center mt-10'>
+
+                        <div className="flex flex-wrap justify-between items-center gap-6 mt-8">
                             <div>
-                                <h2 className='text-2xl font-bold'>$80.00/ <span className='text-[#90ABD5] text-lg'>days</span></h2>
-                                <p className='text-[#90ABD5] text-lg'>$100.00</p>
+                                <h2 className="text-xl md:text-2xl font-bold">
+                                    $80.00/ <span className="text-[#90ABD5] text-sm md:text-lg">days</span>
+                                </h2>
+                                <p className="text-[#90ABD5] text-sm md:text-lg">$100.00</p>
                             </div>
 
                             <div>
-                                <button className='bg-[#3563E9] text-white px-8 py-4 '>Rent Now</button>
+                                <button className="bg-[#3563E9] text-white px-6 py-3 md:px-8 md:py-4 rounded-md">
+                                    Rent Now
+                                </button>
                             </div>
                         </div>
-
-
                     </div>
+
                 </div>
 
                 <div className='mt-10 bg-white w-full h-auto  rounded-lg p-4'>
