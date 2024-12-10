@@ -163,7 +163,7 @@ const CarDetail = () => {
   
   <div className="w-full bg-white px-6 md:px-4  flex flex-wrap  gap-4 justify-center bg-[#F6F7F9]">
     {/* First Car */}
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -210,7 +210,7 @@ const CarDetail = () => {
         </div>
       </div>
     </div>
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -257,7 +257,7 @@ const CarDetail = () => {
         </div>
       </div>
     </div>
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -304,7 +304,7 @@ const CarDetail = () => {
         </div>
       </div>
     </div>
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -351,7 +351,7 @@ const CarDetail = () => {
         </div>
       </div>
     </div>
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -399,7 +399,7 @@ const CarDetail = () => {
       </div>
     </div>
 
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -446,7 +446,7 @@ const CarDetail = () => {
         </div>
       </div>
     </div>
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -494,7 +494,7 @@ const CarDetail = () => {
       </div>
     </div>
 
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -542,7 +542,7 @@ const CarDetail = () => {
       </div>
     </div>
 
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -590,7 +590,7 @@ const CarDetail = () => {
       </div>
     </div>
 
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -638,7 +638,7 @@ const CarDetail = () => {
       </div>
     </div>
 
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
@@ -686,7 +686,7 @@ const CarDetail = () => {
       </div>
     </div>
 
-    <div className="w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+    <div className="w-full md:w-[30%]  mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
       <div className="p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
