@@ -119,7 +119,7 @@ const CarDetails = () => {
                         </div>
 
                         <div className='mt-10'>
-                            <h2 className='text-xl'>NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the "Trace track".</h2>
+                            <h2 className='text-xl'>NISMO has become the embodiment of Nissan&rsquo;s outstanding performance, inspired by the most unforgiving proving ground, the &rdquo;Trace track&rdquo;.</h2>
                         </div>
 
                         <div className='mt-10 flex gap-[180px] items-center'>
