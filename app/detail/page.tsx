@@ -3,7 +3,6 @@ import React from 'react';
 
 import { FaHeart } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
-import { IoSwapHorizontalSharp } from "react-icons/io5";
 import { FaGasPump, FaCogs, FaUsers } from "react-icons/fa";
 import { AiOutlineHeart } from "react-icons/ai";
 import Image from 'next/image';
