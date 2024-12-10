@@ -160,7 +160,7 @@ const CarDetails = () => {
                     </div>
                 </div>
 
-                <div className='mt-10 bg-white w-full h-auto border-2 border-[#90ABD5] rounded-lg p-4'>
+                <div className='mt-10 bg-white w-full h-auto  rounded-lg p-4'>
                     <div className='flex items-center gap-4'>
                         <h1 className='text-2xl font-bold'>Reviews</h1>
                         <p className='px-4 py-2 bg-[#3563E9] text-white  inline-block font-bold'>13</p>
@@ -168,7 +168,7 @@ const CarDetails = () => {
 
                     <div className='mt-10 flex justify-between items-center'>
                         <div className='flex items-center gap-4'>
-                            <Image src={'/images/profil.png'} width={80} height={80} alt='profile' className='rounded-full ' />
+                            <Image src={'/images/profile.png'} width={80} height={80} alt='profile' className='rounded-full ' />
                             <div>
                                 <h1 className='text-xl font-bold'>Alex Stanton</h1>
                                 <p className='text-[#90ABD5]'>CEO at Bankok</p>
@@ -189,7 +189,7 @@ const CarDetails = () => {
                     <h1 className='ml-[100px] mt-4 '>We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.</h1>
                     <div className='mt-10 flex justify-between items-center'>
                         <div className='flex items-center gap-4'>
-                            <Image src={'/images/profil.png'} width={80} height={80} alt='profile' className='rounded-full ' />
+                            <Image src={'/images/profile.png'} width={80} height={80} alt='profile' className='rounded-full ' />
                             <div>
                                 <h1 className='text-xl font-bold'>Alex Stanton</h1>
                                 <p className='text-[#90ABD5]'>CEO at Bankok</p>
