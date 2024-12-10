@@ -76,7 +76,7 @@ const CarDetails = () => {
 
             {/* Right Section */}
             <div className="w-full md:w-[80%]  bg-[#F6F7F9]  p-6">
-                <div className='flex gap-4'>
+                <div className='flex md:flex-]row flex-col gap-4'>
                     {/* left div */}
                     <div className="w-full md:w-[47%] h-[50vh] shadow-sm shadow-gray  p-8">
                         {/* Main Image */}

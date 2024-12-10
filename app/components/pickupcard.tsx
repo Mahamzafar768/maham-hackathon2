@@ -20,9 +20,9 @@ const PickupCard = () => {
                   className="w-full border border-gray-300 rounded-md px-3 py-2 text-gray-700 focus:outline-none focus:ring focus:ring-blue-300"
                 >
                   <option>Select your city</option>
-                  <option>City 1</option>
-                  <option>City 2</option>
-                  <option>City 3</option>
+                  <option>Hyderabad</option>
+                  <option>Karachi</option>
+                  <option>Lahore</option>
                 </select>
               </div>
 
@@ -73,9 +73,9 @@ const PickupCard = () => {
                   className="w-full border border-gray-300 rounded-md px-3 py-2 text-gray-700 focus:outline-none focus:ring focus:ring-blue-300"
                 >
                   <option>Select your city</option>
-                  <option>City 1</option>
-                  <option>City 2</option>
-                  <option>City 3</option>
+                  <option>Hyderabad</option>
+                  <option>Karachi</option>
+                  <option>Lahore</option>
                 </select>
               </div>
 

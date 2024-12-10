@@ -14,7 +14,7 @@ const Selling = () => {
     return (
         <>
     <section >
-  <h1 className="px-6 md:px-12 lg:px-[150px] text-[#90A3BF] text-xl font-semibold">
+  <h1 className="px-6 md:px-12 lg:px-[150px] text-[#90A3BF] text-xl font-semibold bg-white">
     Most Sellings
   </h1>
   <div className="w-full bg-white px-6 md:px-12 lg:px-[150px] flex flex-wrap md:flex-nowrap gap-10 justify-center bg-[#F6F7F9]> ">
@@ -218,8 +218,8 @@ const Selling = () => {
 
 
 <section >
-  <h1 className="px-6 md:px-12 lg:px-[150px] text-[#90A3BF] text-xl font-semibold mt-6">
-    Most Sellings
+  <h1 className="px-6 md:px-12 lg:px-[150px] text-[#90A3BF] text-xl font-semibold mt-6  bg-white">
+  Recomendation Car
   </h1>
   <div className="w-full bg-white px-6 md:px-12 lg:px-[150px] flex flex-wrap md:flex-nowrap gap-10 justify-center">
     {/* First Car */}
