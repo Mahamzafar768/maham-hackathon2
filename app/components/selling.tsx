@@ -150,6 +150,11 @@ const Selling = () => {
     router.push('/car-category'); // Navigates to the "/car-category" page
   };
 
+  const routers = useRouter();
+  const handleNavigationCars = () => {
+    router.push('/detail'); // Navigates to the "/detail-category" page
+  };
+
   return (
     <>
       {/* Most Sellings Section */}
@@ -200,7 +205,7 @@ const Selling = () => {
                     <span className="text-lg font-bold text-gray-900">{car.price}</span>
                     <span className="text-sm text-gray-500">/day</span>
                   </div>
-                  <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                  <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600" onClick={handleNavigationCars}>
                     Rent Now
                   </button>
                 </div>
@@ -258,7 +263,7 @@ const Selling = () => {
                     <span className="text-lg font-bold text-gray-900">{car.price}</span>
                     <span className="text-sm text-gray-500">/day</span>
                   </div>
-                  <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                  <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600" onClick={handleNavigationCars}>
                     Rent Now
                   </button>
                 </div>
