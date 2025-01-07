@@ -150,7 +150,6 @@ const Selling = () => {
     router.push('/car-category'); // Navigates to the "/car-category" page
   };
 
-  const routers = useRouter();
   const handleNavigationCars = () => {
     router.push('/detail'); // Navigates to the "/detail-category" page
   };
