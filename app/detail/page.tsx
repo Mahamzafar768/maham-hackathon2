@@ -8,9 +8,17 @@ import { AiOutlineHeart } from "react-icons/ai";
 import Image from 'next/image';
 import { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 
 const CarDetails = () => {
+
+    const router = useRouter();
+
+    const handleRoute = ()=>{
+        router.push("/rent-car");
+    }
+    
     const [mainImage, setMainImage] = useState('/images/4.png');
 
     // Array of car images
@@ -76,7 +84,7 @@ const CarDetails = () => {
 
             {/* Right Section */}
             <div className="w-full md:w-[80%]  bg-[#F6F7F9]  p-6">
-                <div className='flex md:flex-]row flex-col gap-4'>
+                <div className='flex md:flex-row flex-col gap-4'>
                     {/* left div */}
                     <div className="w-full md:w-[47%] h-[50vh] shadow-sm shadow-gray  p-8">
                         {/* Main Image */}
@@ -158,7 +166,7 @@ const CarDetails = () => {
                             </div>
 
                             <div>
-                                <button className="bg-[#3563E9] text-white px-6 py-3 md:px-8 md:py-4 rounded-md">
+                                <button className="bg-[#3563E9] text-white px-6 py-3 md:px-8 md:py-4 rounded-md" onClick={handleRoute}>
                                     Rent Now
                                 </button>
                             </div>
@@ -236,8 +244,8 @@ const CarDetails = () => {
                         <h1 className='text-[#90ABD5] text-xl font-bold'>Similar cars</h1>
                         <Link href={'#'} className='text-[#3563E9]'>View All</Link>
                     </div>
-                    <div className="w-full bg-white  flex flex-wrap  gap-6 justify-center bg-[#F6F7F9]">
-                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+                    <div className="w-full bg-white flex flex-wrap gap-6 justify-center ">
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%] mt-10 shadow-md rounded-lg overflow-hidden border">
                             <div className="p-4">
                                 {/* Header */}
                                 <div className="flex justify-between items-center mb-4">
@@ -284,7 +292,7 @@ const CarDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%] mt-10 shadow-md rounded-lg overflow-hidden border">
                             <div className="p-4">
                                 {/* Header */}
                                 <div className="flex justify-between items-center mb-4">
@@ -297,7 +305,7 @@ const CarDetails = () => {
                                 {/* Image */}
                                 <div className="flex justify-center mb-4">
                                     <Image
-                                        src="/images/2.png"
+                                        src="/images/1.png"
                                         width={300}
                                         height={300}
                                         alt="Koenigsegg"
@@ -331,7 +339,148 @@ const CarDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%]   mt-10 bg-white shadow-md rounded-lg overflow-hidden border">
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%] mt-10 shadow-md rounded-lg overflow-hidden border">
+                            <div className="p-4">
+                                {/* Header */}
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="text-xl font-bold">Koenigsegg</h3>
+                                    <button className="text-red-500">
+                                        <AiOutlineHeart size={24} />
+                                    </button>
+                                </div>
+                                <p className="text-sm text-gray-500 mb-4">Sport</p>
+                                {/* Image */}
+                                <div className="flex justify-center mb-4">
+                                    <Image
+                                        src="/images/5.png"
+                                        width={300}
+                                        height={300}
+                                        alt="Koenigsegg"
+                                        className="h-24"
+                                    />
+                                </div>
+                                {/* Details */}
+                                <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
+                                    <div className="flex items-center">
+                                        <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>90L</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>Manual</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>4 persons</span>
+                                    </div>
+                                </div>
+                                {/* Price and Button */}
+                                <div className="flex justify-between items-center">
+                                    <div>
+                                        <span className="text-lg font-bold text-gray-900">$200</span>
+                                        <span className="text-sm text-gray-500">/day</span>
+                                    </div>
+                                    <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                                        Rent Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%] mt-10 shadow-md rounded-lg overflow-hidden border">
+                            <div className="p-4">
+                                {/* Header */}
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="text-xl font-bold">Koenigsegg</h3>
+                                    <button className="text-red-500">
+                                        <AiOutlineHeart size={24} />
+                                    </button>
+                                </div>
+                                <p className="text-sm text-gray-500 mb-4">Sport</p>
+                                {/* Image */}
+                                <div className="flex justify-center mb-4">
+                                    <Image
+                                        src="/images/6.png"
+                                        width={300}
+                                        height={300}
+                                        alt="Koenigsegg"
+                                        className="h-24"
+                                    />
+                                </div>
+                                {/* Details */}
+                                <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
+                                    <div className="flex items-center">
+                                        <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>90L</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>Manual</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>4 persons</span>
+                                    </div>
+                                </div>
+                                {/* Price and Button */}
+                                <div className="flex justify-between items-center">
+                                    <div>
+                                        <span className="text-lg font-bold text-gray-900">$200</span>
+                                        <span className="text-sm text-gray-500">/day</span>
+                                    </div>
+                                    <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                                        Rent Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%] mt-10 shadow-md rounded-lg overflow-hidden border">
+                            <div className="p-4">
+                                {/* Header */}
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="text-xl font-bold">Koenigsegg</h3>
+                                    <button className="text-red-500">
+                                        <AiOutlineHeart size={24} />
+                                    </button>
+                                </div>
+                                <p className="text-sm text-gray-500 mb-4">Sport</p>
+                                {/* Image */}
+                                <div className="flex justify-center mb-4">
+                                    <Image
+                                        src="/images/4.png"
+                                        width={300}
+                                        height={300}
+                                        alt="Koenigsegg"
+                                        className="h-24"
+                                    />
+                                </div>
+                                {/* Details */}
+                                <div className="flex justify-between text-[#90A3BF] text-sm mb-4">
+                                    <div className="flex items-center">
+                                        <FaGasPump className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>90L</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaCogs className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>Manual</span>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <FaUsers className="mr-1 text-[#90A3BF]" size={20} />
+                                        <span>4 persons</span>
+                                    </div>
+                                </div>
+                                {/* Price and Button */}
+                                <div className="flex justify-between items-center">
+                                    <div>
+                                        <span className="text-lg font-bold text-gray-900">$200</span>
+                                        <span className="text-sm text-gray-500">/day</span>
+                                    </div>
+                                    <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                                        Rent Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full sm:w-[100%] md:w-[45%] lg:w-[30%] mt-10 shadow-md rounded-lg overflow-hidden border">
                             <div className="p-4">
                                 {/* Header */}
                                 <div className="flex justify-between items-center mb-4">
